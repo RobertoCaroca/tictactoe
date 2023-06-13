@@ -1,0 +1,94 @@
+button {
+    background-color: #8e9296 !important;
+    padding: 0 !important;
+  }
+  
+  .game-board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    color: rgb(204, 28, 28);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  
+  .grid-row {
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .square {
+    margin: 0 !important;
+    padding: 0;
+  }
+
+  .block {
+    background-color: rgb(219, 28, 28);
+    border: 6px solid green;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20em;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+  }
+  
+  .game-score {
+    margin-top: 20px
+  }
+  
+  .status {
+    margin-top: 10px;
+  }
+  
+  .status h2 {
+    margin: 10px;
+  }
+  
+  .btn {
+    margin: 20px;
+    padding: 10px!important;
+    color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+  }
+
+  .text-center {
+    margin-top: 20px;
+  }
+  .btn-x {
+    background-color: green !important;
+  }
+  
+  .btn-o {
+    background-color: yellow !important;
+  }
+
+  .btn-default {
+    background-color: #606468 !important;
+  }
+   
